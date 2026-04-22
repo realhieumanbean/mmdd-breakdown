@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+// @ts-ignore
 import * as mammoth from "mammoth/mammoth.browser";
 import { 
   ArrowLeft, Plus, Film, Box, Users, MoreVertical, Edit, Trash, 
