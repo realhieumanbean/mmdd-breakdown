@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    // Bỏ qua lỗi TypeScript để Deploy thành công
+    // Ép Vercel bỏ qua lỗi TypeScript để Deploy
     ignoreBuildErrors: true,
   },
   eslint: {
